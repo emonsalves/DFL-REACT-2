@@ -1,13 +1,26 @@
 import { useState } from "react"
-import reactLogo from "./assets/react.svg"
 import "./App.css"
+import Header from "./layout/Header"
+import Section from "./layout/Section"
+import Footer from "./layout/Footer"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [name, setName] = useState("")
+  const [pass, setPass] = useState("")
+  const password = "252525"
+  const titulo = "Ingrese sus datos para la Compra"
 
   return (
     <div className="App">
-      <h1 class="text-3xl font-bold underline bg-black">Hello world!</h1>
+      <Header titulo={titulo} />
+      <Section
+        password={password}
+        name={name}
+        setName={setName}
+        pass={pass}
+        setPass={setPass}
+      />
+      <Footer/>
     </div>
   )
 }
