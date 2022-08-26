@@ -35,7 +35,7 @@ function Formulario({ password, name, setName, pass, setPass }) {
         />
       </div>
       <div className="mb-6">
-        <label className={redLetter}>Tu Contraseña</label>
+        <label className={pass === password ? greenLetter : redLetter}>Tu Contraseña</label>
         <input
           type="password"
           id="username-error"
