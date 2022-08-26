@@ -1,4 +1,6 @@
-#Desafío 2 - Estado de los componentes y eventos
+#Desafío 2 - Estado de los componentes y eventos-
+
+
 En este desafío validaremos nuestros conocimientos de la unidad Estado de los
 componentes y eventos.
 Lee todo el documento antes de comenzar el desarrollo individual, para asegurarte de tener
@@ -9,7 +11,7 @@ de nuestros componentes en React
 
 Se utilizo 
 
--> Vite
--> Tailwind
+#Vite
+#Tailwind
 
 link live -> https://emonsalvesreactpassword.netlify.app
