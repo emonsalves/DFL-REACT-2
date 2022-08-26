@@ -37,7 +37,7 @@ function Formulario({ password, name, setName, pass, setPass }) {
       <div className="mb-6">
         <label className={redLetter}>Tu Contraseña</label>
         <input
-          type="text"
+          type="password"
           id="username-error"
           className={pass === password ? greenInput : redInput}
           placeholder="Ingresa tu Contraseña"
