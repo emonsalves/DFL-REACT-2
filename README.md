@@ -7,4 +7,9 @@ Descripción
 En este desafío pondremos en práctica los conceptos aprendidos para controlar los estados
 de nuestros componentes en React
 
+Se utilizo 
+
+-> Vite
+-> Tailwind
+
 link live -> https://emonsalvesreactpassword.netlify.app
